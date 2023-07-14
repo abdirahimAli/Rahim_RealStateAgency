@@ -1,76 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
-  
-  <title>Frontend Mentor | Interactive card details form</title>
-  <!--  /////////////////////////////////////////////////////////////////  -->
-</head>
-<body>
-
-<!--                 first half                          -->
-  <div class="first_colume">
-  <img src="/images/bg-main-desktop.png" alt="">
-  </div>
-
-
-  <img src="/images/icon-complete.svg" id="icon-complete"  style="display: none;" class="icon-complete"  >
-  <h3 id="Thank you" style="display: none;" class="Thank_you" > THANK YOU! </h3>
-  <h4 id="statment_4" style="display: none;" class="statment_4" > we've added your card details </h4>
-  <button class="buttun_2" id="buttun_2" style="display: none;">continue</button>
-
-  <!--           container              -->
-  <div id ="container" class="container">
-
-    <div id="User_Inputs" class="User_Inputs">
-      
-      <h4 id="statment_1"> card holder Name</h4>
-      <input type="text" placeholder="Chris Tucker" id="card holder Name" >
-      <br>
-      <h4 id="statment_2"> Card Number</h4>
-      <input type="text" placeholder="e.g 1234 5678 9123 0000"  id="card number" >
-      <br>
-
-       <h4 id="statment_3">EXP.DATE(MM/YY)  CC</h4> 
-     
-
-
-
-      <input type="text" placeholder="MM"  class="EXP" id="EXP">
-      <input type="text" placeholder="YY"  class="DATE" id="DATE">
-      <input type="text" placeholder="e.g 123" class="CC" id="CC">
-      <br>
-
-      <button class="buttun_1" id="buttun_1">confirm</button>
-  </div>
-
-  <div class="attribution" id="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Abdirahim A Ismail</a>.
-  </div>
-
-</div>
-
-<div class="First_Card">
-  <img src="/images/card-logo.svg" class="card-logo">
-  <img src="/images/bg-card-front.png" class="card-front">
-  <p id="EXP_number" class="EXP_number"> 00</p>
-  <p id="DATE_number" class="DATE_number"> 00</p>
-
-  <h5 id="Name" class="Name"> Chrise Tucker</h5>
-  <h3 id="card_number" class="card_number"> 0000 0000 0000 0000</h3>
- </div>
-
-<div class="Second_Card">
-  <img src="/images/bg-card-back.png" class="card-back"> 
-  <h6 id="CC_NUMBER" class="CC_NUMBER"> 000</h6>
-  <p id="CC"> </p>
-</div>
-
-<script src="index.js">  </script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
